@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Todo App</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
@@ -7,18 +8,18 @@
 </head>
 
 <body class="page">
-  <div class="header-page">
+  <header class="header-page">
     <img src="./eisenhower-matrix.jpg">
     <a class="header-page__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </div>
-  <div class="main-page">
-    <div class="add-item" id="topSectionForAddingElementToList">
+  </header>
+  <main class="main-page">
+    <section class="add-item" id="topSectionForAddingElementToList">
       <label class="add-item__title" for="new-task">Add Item</label>
-      <div class="add-item__wrapper">
+      <article class="add-item__wrapper">
         <input id="new-task" class="add-item__input" type="text">
         <button class="add-item__button">Add</button>
-      </div>
-    </div>
+      </article>
+    </section>
     <h3>Todo</h3>
     <ul class="todo">
       <li class="todo__element">
@@ -29,7 +30,7 @@
         <button class="todo__delete">
           <img class="todo__image" src="./remove.svg">
         </button>
-    </li>
+      </li>
       <li class="todo__element edit-mode">
         <input type="checkbox" class="todo__checkbox">
         <label class="todo__label">Go Shopping</label>
@@ -48,9 +49,10 @@
         <button class="completed-tasks__edit">Edit</button>
         <button class="completed-tasks__delete">
           <img class="completed-tasks__image" src="./remove.svg"></button>
-       </li>
+      </li>
     </ul>
-  </div>
+  </main>
   <script src="app.js"></script>
 </body>
+
 </html>
