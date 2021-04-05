@@ -53,11 +53,13 @@
     border: 0;
     background: none;
     cursor: pointer;
+    outline: none;
 }
 
 .main-page__add,
 .main-page__button
 {
+    outline: none;
     background: none;
     border: 0px;
     color: #888;
@@ -80,6 +82,7 @@
     text-transform: uppercase;
 }
 .main-page__input-add{
+    outline: none;
     margin: 0;
     font-size: 18px;
     line-height: 18px;
