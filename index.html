@@ -9,46 +9,46 @@
 
 <body class="page">
   <header class="header-page">
-    <img src="./eisenhower-matrix.jpg" alt="logo">
+    <img class="header-page__img" src="./eisenhower-matrix.jpg" alt="logo">
     <a class="header-page__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
   <main class="main-page">
-    <section class="add-item" id="topSectionForAddingElementToList">
-      <label class="add-item__title" for="new-task">Add Item</label>
-      <article class="add-item__wrapper">
-        <input id="new-task" class="add-item__input" type="text">
-        <button class="add-item__button">Add</button>
+    <section class="main-page__add-item">
+      <label class="main-page__title">Add Item</label>
+      <article class="main-page__wrapper">
+        <input class="main-page__input" type="text">
+        <button class="main-page__add">Add</button>
       </article>
     </section>
-    <h3>Todo</h3>
-    <ul class="todo">
-      <li class="todo__element">
-        <input type="checkbox" class="todo__checkbox">
-        <label class="todo__label">Pay Bills</label>
-        <input class="todo__input" type="text">
-        <button class="todo__edit">Edit</button>
-        <button class="todo__delete">
-          <img class="todo__image" src="./remove.svg" alt="remove">
+    <h3 class="main-page__title">Todo</h3>
+    <ul class="main-page__todo">
+      <li class="main-page__element">
+        <input class="main-page__checkbox" type="checkbox">
+        <label class="main-page__label">Pay Bills</label>
+        <input class="main-page__input" type="text">
+        <button class="main-page__button">Edit</button>
+        <button class="main-page__delete">
+          <img class="main-page__remove-img" src="./remove.svg" alt="remove">
         </button>
       </li>
-      <li class="todo__element edit-mode">
-        <input type="checkbox" class="todo__checkbox">
-        <label class="todo__label">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="todo__input">
-        <button class="todo__edit">Save</button>
-        <button class="todo__delete">
-          <img class="todo__image" src="./remove.svg" alt="remove"></button>
+      <li class="main-page__element edit-mode">
+        <input type="checkbox" class="main-page__checkbox">
+        <label class="main-page__label">Go Shopping</label>
+        <input type="text" value="Go Shopping" class="main-page__input">
+        <button class="main-page__button">Save</button>
+        <button class="main-page__delete">
+          <img class="main-page__remove-img" src="./remove.svg" alt="remove"></button>
       </li>
     </ul>
-    <h3>Completed</h3>
-    <ul class="completed-tasks" id="completed-tasks">
-      <li class="completed-tasks__element">
-        <input class="completed-tasks__checkbox" type="checkbox" checked>
-        <label class="completed-tasks__label">See the Doctor</label>
-        <input type="text" class="completed-tasks__input">
-        <button class="completed-tasks__edit">Edit</button>
-        <button class="completed-tasks__delete">
-          <img class="completed-tasks__image" src="./remove.svg" alt="remove"></button>
+    <h3 class="main-page__title">Completed</h3>
+    <ul class="main-page__completed-tasks">
+      <li class="main-page__element">
+        <input class="main-page__checkbox" type="checkbox" checked>
+        <label class="main-page__label">See the Doctor</label>
+        <input type="text" class="main-page__input">
+        <button class="main-page__button">Edit</button>
+        <button class="main-page__delete">
+          <img class="main-page__remove-img" src="./remove.svg" alt="remove"></button>
       </li>
     </ul>
   </main>
